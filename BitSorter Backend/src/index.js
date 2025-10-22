@@ -28,7 +28,7 @@ app.use(cors({
 
 const io = new Server(httpserver, {
   cors: {
-    origin: ['http://localhost:1234', 'https://bitsorter.netlify.app'],
+    origin: ['http://localhost:1234', 'https://bitsorter2.netlify.app'],
     credentials: true,
   }
 });
