@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 //'https://bitsorter-frontend.onrender.com'
 app.use(cors({
-  origin: ['http://localhost:1234','https://bitsorter.netlify.app'],
+  origin: ['http://localhost:1234','https://bitsorter2.netlify.app'],
   credentials: true
 }));
 
